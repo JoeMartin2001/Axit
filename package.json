@@ -1,0 +1,14 @@
+{
+  "homepage":"https://github.com/JoeMartin2001/Axit.git",
+  "name": "axit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

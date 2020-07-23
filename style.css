@@ -1,0 +1,8 @@
+.header-img {
+	background-image: url(header.jpg);
+}
+.axure {
+	background-image: url(./Azure.jpg);
+	background-repeat: none;
+	background-size: cover;
+}
