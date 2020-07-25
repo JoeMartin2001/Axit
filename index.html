@@ -18,19 +18,19 @@
         <div>
           <ul class="navbar-nav mr-auto justify-content-around">
               <li class="nav-item pr-4 text-capitalize">
-                <a class="nav-link" href="#">features</a>
+                <a class="nav-link" href="#featurse">features</a>
               </li>
               <li class="nav-item pr-4 text-capitalize">
-                <a class="nav-link" href="#">about</a>
+                <a class="nav-link" href="#about">about</a>
               </li>
               <li class="nav-item pr-4 text-capitalize">
-                <a class="nav-link" href="#">pricing</a>
+                <a class="nav-link" href="#pricing">pricing</a>
               </li>
               <li class="nav-item pr-4 text-capitalize">
-                <a class="nav-link" href="#">reviews</a>
+                <a class="nav-link" href="#reviews">reviews</a>
               </li>
               <li class="nav-item pr-4 text-capitalize">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="#contact">contact</a>
               </li>
             </ul>
         </div>
@@ -111,7 +111,7 @@
       </section>
                   <!-------------------  Features  ------------------->
 <!-------------------  Feature 1 ------------------->
-      <section class="container-fluid p-5 d-flex flex-md-row flex-column border-bottom">
+      <section class="container-fluid p-5 d-flex flex-md-row flex-column border-bottom" id="features">
           <div class="w-100 w-md-25 d-flex flex-column align-items-center justify-content-center">
             <button class="btn text-uppercase h-25 w-25 btn-warning m-1 p-4 w-50 active" href="#">tab 1</button>
             <button class="btn text-uppercase h-25 w-25 btn-secondary m-1 p-4 w-50" href="#">tab 2</button>
@@ -224,7 +224,7 @@
         </div>
       </section>
 <!------------------  Pricing Options ----------------->
-      <section class="container-fluid bg-light pb-5">  
+      <section class="container-fluid bg-light pb-5" id="pricing">  
         <div class="w-100 d-flex flex-column justify-content-center align-items-center p-5">
           <h1 class="text-uppercase text-center border-bottom border-warning w-md-25 md-100 ">pricing options</h1>
           <p class="text-center text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -294,14 +294,14 @@
         </div>
       </section>
 <!------------------What our customers are saying------------------>
-      <section class="container background-light p-2 mb-3">
+      <section class="container background-light p-2 mb-3" id="reviews">
         <div class="container d-flex flex-column align-items-center text-center">
           <h1 class="text-uppercase text-dark border-bottom border-warning text-center">What our customers are saying</h1>
           <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adeptur elit.</p>
         </div>
         <div class="continer d-flex align-items-center flex-md-row 
                     flex-column justify-content-between">
-          <div class="w-100 w-md-25 mb-5 mb-md-0">
+          <div class="w-100 w-md-25 mb-5 mb-md-0 m-3">
             <p class="text-secondary bg-light rounded p-2 text-left m-3">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
               Corporis officiis ratione dolorum, ab obcaecati veritatis 
@@ -357,19 +357,21 @@
       </section>
 <!------------------Contact Us--------------->
       <section class="container p-5">
-          <div class="d-flex flex-column justify-content-around align-items-center">
+          <div class="d-flex flex-column justify-content-around align-items-center" id="contact">
               <h2 class="text-uppercase border-bottom border-warning">Contact Us</h2>
               <br />
               <p>Lorem ipsum dolor sit amet, consectetur adipscing elit.</p>
           </div>
           <form class="d-flex flex-md-row flex-column justify-content-center align-items-md-end">
-              <div class="w-75 w-md-25 d-flex flex-column mr-5">
-                  <input class="pb-2 border-top-0 border-right-0 border-left-0" placeholder="Name"/>
-                  <input class="pb-2 border-top-0 border-right-0 border-left-0" placeholder="Email"/>
-                  <input class="pb-2 border-top-0 border-right-0 border-left-0" placeholder="Subject"/>
+              <div class="w-75 w-md-25 d-flex flex-column mr-5 align-items-start justify-content-center">
+                  <input class="w-100 pb-2 border-top-0 border-right-0 border-left-0" placeholder="Name"/>
+                  <input class="w-100 pb-2 border-top-0 border-right-0 border-left-0" placeholder="Email"/>
+                  <input class="w-100 pb-2 border-top-0 border-right-0 border-left-0" placeholder="Subject"/>
               </div>
-              <div class="w-75 w-md-25 ml-md-5 mt-md-0 mt-5">
-                  <input class="pb-4 w-100 border-top-0 border-right-0 border-left-0" placeholder="Message"/>
+              <div class="w-75 w-md-25 ml-md-5 mt-md-0 mt-5 align-items-center justify-content-center">
+                  <label for="from18">Message</label>
+                  <textarea class="w-100 lg-textarea form-control" id="from18" rows='3'/>
+                  </textarea>
               </div>
           </form>
           <br />
